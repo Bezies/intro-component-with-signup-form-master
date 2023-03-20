@@ -15,49 +15,6 @@ function validate(mail) {
     }
 }
 
-// CODE QUI MARCHE
-
-
-// let form = document.querySelector(".claim");
-
-// let errors = document.querySelectorAll(".message")
-// let icons = document.querySelectorAll(".icon");
-// let placeholder = document.querySelectorAll("input");
-// let inputs = document.querySelectorAll("input");
-// let mail = document.querySelector(".mail").value;
-// let spanIcon = document.querySelectorAll(".span-icon");
-// form.addEventListener('click', function () {
-
-
-//     for (let i = 0; i < inputs.length; i++) {
-
-//          if (inputs[i].value.length <= 0) {
-//             errors[i].style.display = "block";
-//             icons[i].className = ".icon.invalid";
-//             // spanIcon[i].style.display = "block";
-//             placeholder[i].removeAttribute("placeholder");
-//         } 
-//         else if (validate(mail) == false) {
-//             errors[2].style.display = "block";
-//             icons[2].className = ".icon.invalid";
-//             // spanIcon[2].style.display = "block";
-//             placeholder[2].removeAttribute("placeholder");
-//         } 
-//         else if (inputs[i].value.length > 0) {
-//             errors[i].style.display = "none";
-//             // errors[i].style.color = "green";
-//             spanIcon[i].style.display = "none";
-//         }
-//     }
-
-
-// })
-
-
-
-// TEST
-
-// CODE NEHEMIA 
 
 let form = document.querySelector(".claim");
 let errors = document.querySelectorAll(".message")
